@@ -8,7 +8,7 @@ end
 
 def using_reverse(array)
   array.reverse!
-  puts array
+  puts array.inspect
   return array
 end
 
