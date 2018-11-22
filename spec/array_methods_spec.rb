@@ -22,7 +22,7 @@ describe "#using_reverse" do
   it "takes in argument of an array and returns that same array with the contents reversed." do 
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
     expect(using_reverse(array).first).to eq("arrays!")
-    expect(using_reverse(array).last).to eq("wow")
+    expect(using_reverse(array).first).to eq("wow")
   end
 end
 
